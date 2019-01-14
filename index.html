@@ -6,12 +6,46 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <!-- <script src="Vue.js"></script> -->
 </head>
 <body>
+    <!-- 插件：emment -->
+    <!-- <div id="container">
+    {{ content }}   
+    </div> -->
+    <!-- <div id="eg-2">
+        <span v-bind:title="message">
+         点击此处有惊喜！
+        </span>
+      </div> -->
+    
+    <!-- <div>
+        <span>A</span>
+        <input id="num-1" type="text" placeholder="请输入一个数">
+    </div> 
     <div>
-        大佬是大佬
-        <p>大佬</p>
+        <span>B</span>
+        <input id="num-2" type="text" placeholder="请输入一个数">
+    </div> 
+   <div>
+        <button onclick="Add()">和</button>
+   </div>
+    <div>
+        <span>A+B=</span>
+        <span id="result"></span>
+    </div> -->
+    <div>
+        <span class="font">姓名</span>
+        <input class="box" id="name" type="text">
     </div>
+    <div>
+        <span class="font">留言</span>
+        <input class="box" type="text" id="content">
+    </div>
+    <button class="button" onclick="Note()">提交</button>
+    <div class="note">
+        <ul id="note"></ul>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>

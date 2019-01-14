@@ -1,0 +1,23 @@
+.font{
+    font-family: '楷体';
+    font-size: 1em;
+    color: #aaa;
+}
+.box{
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    box-shadow: 1px 2px 6px rgb(141, 204, 233);
+}
+.note{
+    border: 1px solid antiquewhite;
+    border-radius: 5px;
+    /* height: 10px; */
+}
+#note > li + li {
+    border-top: 1px dashed antiquewhite;
+}
+.button{
+    background-color: aliceblue;
+    border: 1px solid rgb(148, 211, 223);
+    border-radius: 10px;
+}
