@@ -3,9 +3,10 @@ int main()
 {
     int n,i,j,sum=1;
     scanf("%d",&n);
+    int a[8][8];
     if(n <= 8 && n > 0)
     {
-        int a[n][n];
+      
         for(i = 0; ;i++)
         {
             for(j = i; j <= n-1-i;j++)
