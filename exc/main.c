@@ -3,7 +3,7 @@ int main()
 {
     int i;
     char str[6];
-    str[6] = 0;
+    str[5] = 0;
     scanf("%s",str);
     for(i = 0 ; i < 5 ; i ++)
     {
