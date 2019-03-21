@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    // 求最大公约数与最小公倍数
     int a,b,i,j = 0;
     int str[10];
     scanf("%d%d",&a,&b);

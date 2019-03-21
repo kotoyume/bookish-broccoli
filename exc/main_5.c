@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    // 输出杨辉三角
     int a[20][20];
     int i,j,m;
     scanf("%d",&m);

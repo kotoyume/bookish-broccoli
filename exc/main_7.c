@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    // 按成绩高低输出
     int i,j,m;
     double a,b,c,t;
     int num[5];

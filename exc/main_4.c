@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    // 输入成绩输出等级
     int a;
     scanf("%d",&a);
     char grade;

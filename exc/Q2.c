@@ -2,6 +2,7 @@
 #include <string.h>
 int main()
 {
+    // djb魔王军的军饷
     char name[21],nam[21];
     int i,j,n;
     int a,b,e;

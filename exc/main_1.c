@@ -2,6 +2,7 @@
 #include <math.h>
 int main()
 {
+    // 输出一百以内素数
     int i,j,n,v=0,m=0;
     for(i = 2;i < 101;i++)
     {

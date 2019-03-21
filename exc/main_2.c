@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    // 求1000以内完数
     int i,j,c;
     int a[35];
     for(i = 2;i < 1001;i++)

@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    // 蛇形填数
     int n,i,j,sum=1;
     scanf("%d",&n);
     int a[8][8];
