@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 int main()
 {
     // 倒序输出
@@ -47,27 +48,47 @@ int main()
     // {
         // printf("%d ",a[i]);
     // }
-    int a[3][4],i,j;
-    for(i = 0;i < 3;i++)
-    {
-        for(j = 0;j < 4;j++)
-        scanf("%d",&a[i][j]);
-    }
-    int max = a[0][0];
-    int m = 0;
-    int k = 0; 
-    for(i = 0;i < 3;i++)
-    {
-        for(j = 0;j < 4;j++)
-        {
-            if(a[i][j] > max)
-            {
-                max = a[i][j];
-                m = i;
-                k = j;
-            }
-        }
-    }
-    printf("%d\n%d\n%d\n",max,m,k);
+
+    // int a[3][4],i,j;
+    // for(i = 0;i < 3;i++)
+    // {
+    //     for(j = 0;j < 4;j++)
+    //     scanf("%d",&a[i][j]);
+    // }
+    // int max = a[0][0];
+    // int m = 0;
+    // int k = 0; 
+    // for(i = 0;i < 3;i++)
+    // {
+    //     for(j = 0;j < 4;j++)
+    //     {
+    //         if(a[i][j] > max)
+    //         {
+    //             max = a[i][j];
+    //             m = i;
+    //             k = j;
+    //         }
+    //     }
+    // }
+    // printf("%d\n%d\n%d\n",max,m,k);
+
+    // char str1[10],str2[5];
+    // scanf("%s",str1);
+    // scanf("%s",str2);
+    // int i;
+    // for (i = 0; ;i++)
+    // {
+        // if (str2[i] == '\0')
+        // {
+            // str1[i] = '\0';
+            // break;
+        // }
+        // str1[i] = str2[i];
+    // }
+    // printf("%s",str1);
+    char str[10] = {"hjbdvjkdv"};
+    printf("%s",str);
+    strcpy(str,"hllo");
+    printf("%s",str);
     return 0;
 }
