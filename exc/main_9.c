@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    // 求字符串长度
     int i;
     char a[11];
     scanf("%s",a);

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
 int main()
 {
     // 倒序输出
@@ -86,9 +87,30 @@ int main()
         // str1[i] = str2[i];
     // }
     // printf("%s",str1);
-    char str[10] = {"hjbdvjkdv"};
-    printf("%s",str);
-    strcpy(str,"hllo");
-    printf("%s",str);
+    // double aver;
+    // double a[5];
+    // scanf("%lf",&aver);
+    // for(int i = 0; i < 5; i++)
+    // {
+        // scanf("%lf",&a[i]);
+    // }
+    // double sum = 0;
+    // for(int i = 0; i < 5; i++)
+    // {
+        // sum = sum + (a[i] - aver) * (a[i] - aver);
+    // }
+    // double n = sqrt(sum / 20);
+    // printf("%f",n);
+    int srf();
+    printf("%d",srf());
     return 0;
+}
+int srf()
+{
+    int sum = 1,i;
+    for(i = 2; i < 11; i++)
+    {
+        sum = sum + sum * i;
+    }
+    return sum;
 }
