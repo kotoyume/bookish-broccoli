@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
+
+unsigned int bound_max = ~0;
+unsigned int bound_max1 = 0u - 1u;
+unsigned int bound_max2 = 0xffffffff;
+
 int main()
 {
     // 倒序输出
